@@ -1,6 +1,6 @@
 {
   "name": "@kluberrrr/simple-react-modal",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "keywords": ["react", "modal"],
   "description": "a simple react modal",
   "main": "dist/Modal.js",
@@ -13,7 +13,7 @@
     "build-examples": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "build": "rimraf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+    "build": "NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
