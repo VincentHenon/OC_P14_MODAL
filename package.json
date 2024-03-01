@@ -1,6 +1,8 @@
 {
   "name": "@kluberrrr/simple-react-modal",
   "version": "0.1.4",
+  "keywords": ["react", "modal"],
+  "description": "a simple react modal",
   "main": "dist/Modal.js",
   "module": "dist/Modal.js",
   "files": [
