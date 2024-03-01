@@ -41,19 +41,19 @@ const App = () => {
 
   // button 1 action
   const handleBtn1 = () => {
-    alert("button 1 clicked.")
+    //alert("button 1 clicked.")
     closeModal()
   }
 
   // button 2 action
   const handleBtn2 = () => {
-    alert("button 2 clicked.")
+    //alert("button 2 clicked.")
     closeModal()
   }
 
   // close the modal
   const handleClose = () => {
-    alert("modal closed.")
+    //alert("modal closed.")
     closeModal()
   }
 
